@@ -1,0 +1,15 @@
+.nav-bar {
+  display: inline-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30px;
+  background-color: #2d2d2d;
+  &-logo {
+    max-height: 40px;
+    height: 100%;
+  }
+  &-search {
+    display: inline-flex;
+  }
+}
